@@ -95,3 +95,31 @@ p {
         opacity: 0;
     }
 }
+
+@media (max-width: 480px) {
+
+    .card {
+        width: 90%;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .heart {
+        font-size: 16px;
+    }
+}
+.inner-card {
+    transition: transform 0.8s ease;
+}
